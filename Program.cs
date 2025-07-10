@@ -28,8 +28,8 @@ namespace HotelBookingAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddTransient<SqlConnectionFactory>(); // add by me
-            builder.Services.AddScoped<UserRepository>(); // add by me
+            builder.Services.AddTransient<SqlConnectionFactory>(); // add by me Ankit Lashkar
+            builder.Services.AddScoped<UserRepository>(); // add by me Ankit Lashkari
 
 
             var app = builder.Build();
